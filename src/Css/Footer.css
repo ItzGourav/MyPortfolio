@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.footerDiv{
+    position: sticky;
+    bottom: 0%;
+    left: 0%;
+    margin-top: 50px;
+    height: 60px;
+    background-color: #b78aff ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+}

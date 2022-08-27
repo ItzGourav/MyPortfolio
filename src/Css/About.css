@@ -1,0 +1,27 @@
+.page{
+    color: #845EC2;
+    font-size: 30px;
+    border-bottom: 2px solid #845EC2 ;
+}
+
+.fdeveloper{
+    padding: 0px 15px;
+    background-color: #845EC2;
+    color: aliceblue;
+    font-size: 10vw;
+    text-align: left;
+}
+
+.barDiv{
+    margin-top:10vh;
+    margin-bottom: 10vh;
+}
+
+.skills{
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 3rem;
+    background-color: #845EC2;
+    padding: 10px;
+    color: white;
+}

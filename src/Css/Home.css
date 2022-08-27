@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+.intro{
+    font-size: 40px;
+    font-family: 'Rubik Dirt', cursive;
+    position: relative;
+    line-height: 44px;
+    background-color: #845EC2;
+    color: #fff;
+}
+
+.intro::before{
+    content: "Hey! ,";
+    display: block;
+    color: #845EC2;
+    background-color: #fff;
+}
+.intro::after{
+    content: "Here";
+    display: block;
+    color: #845EC2;
+    background-color: #fff;
+}
+.intro_div{
+height: 30vh;
+}
+
+.brand{
+    color: #845EC2;
+    font-size: 30px;
+}
+
+.btn{
+    outline: none;
+    border: 1px solid black;
+    border-radius: 40px;
+    transition: all 0.2s linear;
+}
+.btnlink{
+padding: 10px
+}
+
+.btn .btnlink {
+    color: #845EC2;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #845ec2b3;
+    border: 1px solid white;
+}
+
+.btnlink:hover{
+    color: #fff;
+}
+
+.homeimg{
+    height: 50vh;
+    width: 100vw;
+    animation: upDown 2s linear infinite alternate-reverse;
+}
+
+@media screen and (max-width: 786px){
+    .homeimg{
+        height: 100%;
+        width: 100vw;
+    }
+}
+
+@keyframes upDown {
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-toggler{
+    outline: none;
+    border: none;
+}
+.links:hover, .navbar-brand{
+    color: #845EC2;
+}
+
+.navbar{
+    background-color: #fff !important;
+}
+
+.navbar-brand{
+    font-family: 'Rubik Dirt', cursive;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+.navbar-brand:hover{
+    color: #583394;
+}
+
+.navbar-brand:focus{
+    color: #845EC2;
+}
+
+.links:focus{
+    border-bottom: 2px solid #845EC2;
+}

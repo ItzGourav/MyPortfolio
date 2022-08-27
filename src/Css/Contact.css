@@ -1,0 +1,72 @@
+.names{
+    display: flex;
+}
+
+.lname{
+    margin-left: 30px;
+}
+
+.formm{
+    padding: 10px;
+    height: calc(82vh);
+}
+
+.F_input, .L_input, .I_mail, .I_msg{
+    padding: 6px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #845EC2;
+    box-shadow: 5px 5px 30px grey;
+    width: 100%;
+    transition: all 0.3s linear;
+    /* border-style: initial; */
+}
+
+.mail, .message{
+    margin-top: 30px;
+}
+
+.I_mail, .I_msg{
+    width: 100%;
+}
+
+.Sbutton{
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 3px 15px;
+    border: 2px solid #845EC2;
+    transition: all 0.2s linear;
+}
+
+.Sbutton:hover{
+    color: white;
+    background-color: #845EC2;
+    border: 4px solid #b69ae3;
+}
+
+.Sbutton:active{
+    color: #845EC2;
+    background-color: white;
+    border: 4px solid #b69ae3;
+}
+
+@media screen and (max-width: 786px){
+    .names{
+        text-align: left;
+        display: block;
+        width: 70vw;
+    }
+    .lname{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+}
+
+.F_input:hover,
+.L_input:hover,
+.I_mail:hover,
+.I_msg:hover{
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 4px solid #00D2FC;
+}
