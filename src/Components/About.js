@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Css/About.css";
-import Progress_bar from "../Components/Progress_bar"
+import ProgressBar from "../Components/ProgressBar"
 
 
 const About = () => {
@@ -50,10 +50,10 @@ const About = () => {
             </div>
           </div>
         </div>
-        <Progress_bar tag="HTML" bgcolor="#FF0000" progress='80' height={25} />
-        <Progress_bar tag="Css" bgcolor="#009EFA" progress='80' height={25} />
-        <Progress_bar tag="Js" bgcolor="#FFC75F" progress='70' height={25} />
-        <Progress_bar tag="ReactJS" bgcolor="#00D2FC" progress='65' height={25} />
+        <ProgressBar tag="HTML" bgcolor="#FF0000" progress='80' height={25} />
+        <ProgressBar tag="Css" bgcolor="#009EFA" progress='80' height={25} />
+        <ProgressBar tag="Js" bgcolor="#FFC75F" progress='70' height={25} />
+        <ProgressBar tag="ReactJS" bgcolor="#00D2FC" progress='65' height={25} />
       </div>
     </>
   )
